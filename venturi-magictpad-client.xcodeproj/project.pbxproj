@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1099A4D828607097000008BD /* TouchpadTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099A4D728607097000008BD /* TouchpadTestApp.swift */; };
-		1099A4DA28607097000008BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099A4D928607097000008BD /* ContentView.swift */; };
-		1099A4DC2860709A000008BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1099A4DB2860709A000008BD /* Assets.xcassets */; };
-		1099A4DF2860709A000008BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1099A4DE2860709A000008BD /* Preview Assets.xcassets */; };
+		1099A4ED28609793000008BD /* touchpad_navmanipsprintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099A4EC28609793000008BD /* touchpad_navmanipsprintApp.swift */; };
+		1099A4EF28609793000008BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099A4EE28609793000008BD /* ContentView.swift */; };
+		1099A4F128609795000008BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1099A4F028609795000008BD /* Assets.xcassets */; };
+		1099A4F428609795000008BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1099A4F328609795000008BD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1099A4D428607097000008BD /* TouchpadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchpadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1099A4D728607097000008BD /* TouchpadTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchpadTestApp.swift; sourceTree = "<group>"; };
-		1099A4D928607097000008BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1099A4DB2860709A000008BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1099A4DE2860709A000008BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1099A4D428607097000008BD /* venturi-magictpad-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "venturi-magictpad-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1099A4EA28609793000008BD /* touchpad-navmanipsprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "touchpad-navmanipsprint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1099A4EC28609793000008BD /* touchpad_navmanipsprintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchpad_navmanipsprintApp.swift; sourceTree = "<group>"; };
+		1099A4EE28609793000008BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1099A4F028609795000008BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1099A4F328609795000008BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1099A4F528609795000008BD /* touchpad_navmanipsprint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = touchpad_navmanipsprint.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1099A4D128607097000008BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099A4E728609793000008BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +44,7 @@
 		1099A4CB28607097000008BD = {
 			isa = PBXGroup;
 			children = (
-				1099A4D628607097000008BD /* TouchpadTest */,
+				1099A4EB28609793000008BD /* touchpad_navmanipsprint */,
 				1099A4D528607097000008BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,26 +52,28 @@
 		1099A4D528607097000008BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1099A4D428607097000008BD /* TouchpadTest.app */,
+				1099A4D428607097000008BD /* venturi-magictpad-client.app */,
+				1099A4EA28609793000008BD /* touchpad-navmanipsprint.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1099A4D628607097000008BD /* TouchpadTest */ = {
+		1099A4EB28609793000008BD /* touchpad_navmanipsprint */ = {
 			isa = PBXGroup;
 			children = (
-				1099A4D728607097000008BD /* TouchpadTestApp.swift */,
-				1099A4D928607097000008BD /* ContentView.swift */,
-				1099A4DB2860709A000008BD /* Assets.xcassets */,
-				1099A4DD2860709A000008BD /* Preview Content */,
+				1099A4EC28609793000008BD /* touchpad_navmanipsprintApp.swift */,
+				1099A4EE28609793000008BD /* ContentView.swift */,
+				1099A4F028609795000008BD /* Assets.xcassets */,
+				1099A4F528609795000008BD /* touchpad_navmanipsprint.entitlements */,
+				1099A4F228609795000008BD /* Preview Content */,
 			);
-			path = TouchpadTest;
+			path = touchpad_navmanipsprint;
 			sourceTree = "<group>";
 		};
-		1099A4DD2860709A000008BD /* Preview Content */ = {
+		1099A4F228609795000008BD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1099A4DE2860709A000008BD /* Preview Assets.xcassets */,
+				1099A4F328609795000008BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1099A4D328607097000008BD /* TouchpadTest */ = {
+		1099A4D328607097000008BD /* venturi-magictpad-client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1099A4E22860709A000008BD /* Build configuration list for PBXNativeTarget "TouchpadTest" */;
+			buildConfigurationList = 1099A4E22860709A000008BD /* Build configuration list for PBXNativeTarget "venturi-magictpad-client" */;
 			buildPhases = (
 				1099A4D028607097000008BD /* Sources */,
 				1099A4D128607097000008BD /* Frameworks */,
@@ -82,9 +93,26 @@
 			);
 			dependencies = (
 			);
-			name = TouchpadTest;
+			name = "venturi-magictpad-client";
 			productName = TouchpadTest;
-			productReference = 1099A4D428607097000008BD /* TouchpadTest.app */;
+			productReference = 1099A4D428607097000008BD /* venturi-magictpad-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1099A4E928609793000008BD /* touchpad-navmanipsprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1099A4F628609795000008BD /* Build configuration list for PBXNativeTarget "touchpad-navmanipsprint" */;
+			buildPhases = (
+				1099A4E628609793000008BD /* Sources */,
+				1099A4E728609793000008BD /* Frameworks */,
+				1099A4E828609793000008BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "touchpad-navmanipsprint";
+			productName = "touchpad-navmanipsprint";
+			productReference = 1099A4EA28609793000008BD /* touchpad-navmanipsprint.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,9 +128,12 @@
 					1099A4D328607097000008BD = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					1099A4E928609793000008BD = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
-			buildConfigurationList = 1099A4CF28607097000008BD /* Build configuration list for PBXProject "TouchpadTest" */;
+			buildConfigurationList = 1099A4CF28607097000008BD /* Build configuration list for PBXProject "venturi-magictpad-client" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +146,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1099A4D328607097000008BD /* TouchpadTest */,
+				1099A4D328607097000008BD /* venturi-magictpad-client */,
+				1099A4E928609793000008BD /* touchpad-navmanipsprint */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +157,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1099A4DF2860709A000008BD /* Preview Assets.xcassets in Resources */,
-				1099A4DC2860709A000008BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099A4E828609793000008BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1099A4F428609795000008BD /* Preview Assets.xcassets in Resources */,
+				1099A4F128609795000008BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1099A4DA28607097000008BD /* ContentView.swift in Sources */,
-				1099A4D828607097000008BD /* TouchpadTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099A4E628609793000008BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1099A4EF28609793000008BD /* ContentView.swift in Sources */,
+				1099A4ED28609793000008BD /* touchpad_navmanipsprintApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +312,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TouchpadTest/TouchpadTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TouchpadTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 776EQJ8ZBM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,9 +332,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Logitech.TouchpadTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "2,6";
 			};
 			name = Debug;
 		};
@@ -295,9 +344,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TouchpadTest/TouchpadTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TouchpadTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 776EQJ8ZBM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -313,16 +364,71 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Logitech.TouchpadTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Release;
+		};
+		1099A4F728609795000008BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "touchpad-navmanipsprint/touchpad_navmanipsprint.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"touchpad_navmanipsprint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logitech.touchpad-navmanipsprint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1099A4F828609795000008BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "touchpad-navmanipsprint/touchpad_navmanipsprint.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"touchpad_navmanipsprint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logitech.touchpad-navmanipsprint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1099A4CF28607097000008BD /* Build configuration list for PBXProject "TouchpadTest" */ = {
+		1099A4CF28607097000008BD /* Build configuration list for PBXProject "venturi-magictpad-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1099A4E02860709A000008BD /* Debug */,
@@ -331,11 +437,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1099A4E22860709A000008BD /* Build configuration list for PBXNativeTarget "TouchpadTest" */ = {
+		1099A4E22860709A000008BD /* Build configuration list for PBXNativeTarget "venturi-magictpad-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1099A4E32860709A000008BD /* Debug */,
 				1099A4E42860709A000008BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1099A4F628609795000008BD /* Build configuration list for PBXNativeTarget "touchpad-navmanipsprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1099A4F728609795000008BD /* Debug */,
+				1099A4F828609795000008BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
